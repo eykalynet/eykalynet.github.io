@@ -100,6 +100,31 @@ h3 {
   text-transform: lowercase;
 }
 
+
+.research-entry {
+  display: block;
+}
+
+.research-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.research-description {
+  margin: 0.4rem 0 0.8rem;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .research-header {
+    flex-wrap: wrap;
+  }
+}
+
 a {
   color: var(--link);
   text-decoration: none;
